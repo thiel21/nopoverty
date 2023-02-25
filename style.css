@@ -35,7 +35,34 @@ background-repeat: no-repeat;
 background-image: url("http://www.gdrc.org/ngo/sdg/sdgs-all.png")
 }
 
+.banner4 {
+    filter: brightness(100%);
+background-size: cover;
+width: 100%;
+height: 50vh;
+background-repeat: no-repeat;
+background-image: url("https://sustainabledevelopment.un.org/content/sdgsummit/images/cover.jpg")
+}
 
+.banner5 {
+    filter: brightness(100%);
+background-size: cover;
+background-position: center;
+width: 100%;
+height: 50vh;
+background-repeat: no-repeat;
+background-image: url("https://unosd.un.org/sites/unosd.un.org/files/images/coa_2019.jpg")
+}
+
+.banner6 {
+    filter: brightness(100%);
+background-size: cover;
+background-position: center;
+width: 100%;
+height: 50vh;
+background-repeat: no-repeat;
+background-image: url("https://www.unicef.org/philippines/sites/unicef.org.philippines/files/styles/hero_tablet/public/UNIPH2019018.JPG?itok=eKrrrRPi")
+}
 
 .content {
 
@@ -47,6 +74,7 @@ text-align: center;
 color: #fff;
 }
 .content h1 {
+
 
 font-size: 100px;
 margin-top: 80px;
@@ -60,10 +88,27 @@ margin-top: 80px;
 
 }
 
+h4 {
+
+    font-size: 40px;
+    margin: 50px;
+    text-align: center;
+    
+}
+h5 {
+    font-size: 25px;
+ text-align: left;
+ margin: 50px;
+}
 
 a {
-    font-weight: bold;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:aqua;
+    text-align: center;
+    margin: 50px;
+    text-decoration: wavy;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+ 
 }
 
 .topnav {
@@ -97,8 +142,8 @@ text-transform: uppercase;
 font-family: 'Steelfish Rg', 'helvetica neue',
             helvetica, arial, sans-serif;
 font-weight: 900;
-
 }
+
 h2 {
     color: #ffffff;
     background-position: cover;
