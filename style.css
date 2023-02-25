@@ -7,7 +7,7 @@
 }
 .banner {
 
-filter: brightness(50%);
+filter: brightness(40%);
 background-size: cover;
 width: 100%;
 height: 100vh;
@@ -17,7 +17,7 @@ background-image: url("https://www.habitatforhumanity.org.uk/wp-content/uploads/
 }
 
 .banner2 {
-    filter: brightness(50%);
+    filter: brightness(100%);
 background-size: cover;
 background-position: center;
 width: 100%;
@@ -25,6 +25,16 @@ height: 50vh;
 background-repeat: no-repeat;
 background-image: url("https://scontent.fmnl8-2.fna.fbcdn.net/v/t1.15752-9/261155246_1046863112768670_4134372745092003311_n.png?_nc_cat=103&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeH68Ev6rDlwNNsuKJstq_bZBzi1WUmzl3sHOLVZSbOXe07eJV5N9GLxUejyGYtGvtu2Mr-BY82BWEv_c6tfqpFZ&_nc_ohc=OGNoByX6Hr4AX8oHWvG&_nc_oc=AQnuFGyNDEB52reDQtKUXxQe3Q0dsDrWpv4wV9uDqkz1T48klrqmN6mANYCSOp8NfPM&_nc_ht=scontent.fmnl8-2.fna&oh=03_AdTEsOcE_N0XWbCSKL2K3lce6rut4v6oxcbgS7L6KmseKA&oe=6420D44B")
 }
+
+.banner3 {
+    filter: brightness(100%);
+background-size: cover;
+width: 100%;
+height: 50vh;
+background-repeat: no-repeat;
+background-image: url("http://www.gdrc.org/ngo/sdg/sdgs-all.png")
+}
+
 
 
 .content {
@@ -44,7 +54,7 @@ margin-top: 80px;
 
 .content p {
 
-    margin: 20px auto;
+    margin: 35px auto;
     font-weight: 100;
     line-height: 25px;
 
@@ -58,7 +68,7 @@ a {
 
 .topnav {
     overflow: hidden;
-    background-color: rgb(34, 33, 33);
+    background-color: rgb(20, 19, 19);
     position: fixed;
      top: 0;
     width: 100%;
@@ -78,7 +88,7 @@ a {
     color: white;
 }
 h1 {
- font-size: 120px;
+ font-size: 150px;
 
 text-align: center;
 color: #f2f2f2;
@@ -86,19 +96,28 @@ font-weight: bold;
 text-transform: uppercase;
 font-family: 'Steelfish Rg', 'helvetica neue',
             helvetica, arial, sans-serif;
-font-weight: 800;
+font-weight: 900;
 
 }
 h2 {
     color: #ffffff;
     background-position: cover;
     background-color: rgb(71, 69, 81);
-    font-size: 35px;
+    font-size: 40px;
     margin: 50px;
   
 }
-p {
+
+h3 {
+
+    font-size: 30px;
+
     margin: 50px;
+
+}
+
+p {
+    margin: 100px;
     font-size: 20px;
 }
 
